@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6413179116016A5D0014BED4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6413179016016A5D0014BED4 /* main.cpp */; };
 		6413179316016A5D0014BED4 /* StrategyPattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6413179216016A5D0014BED4 /* StrategyPattern.1 */; };
+		6413179B16016AE10014BED4 /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6413179916016AE10014BED4 /* Context.cpp */; };
+		6413179E16016B5F0014BED4 /* Strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6413179C16016B5F0014BED4 /* Strategy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		6413178C16016A5D0014BED4 /* StrategyPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StrategyPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		6413179016016A5D0014BED4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6413179216016A5D0014BED4 /* StrategyPattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StrategyPattern.1; sourceTree = "<group>"; };
+		6413179916016AE10014BED4 /* Context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Context.cpp; sourceTree = "<group>"; };
+		6413179A16016AE10014BED4 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		6413179C16016B5F0014BED4 /* Strategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Strategy.cpp; path = ../Strategy.cpp; sourceTree = "<group>"; };
+		6413179D16016B5F0014BED4 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Strategy.h; path = ../Strategy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			children = (
 				6413179016016A5D0014BED4 /* main.cpp */,
 				6413179216016A5D0014BED4 /* StrategyPattern.1 */,
+				6413179916016AE10014BED4 /* Context.cpp */,
+				6413179A16016AE10014BED4 /* Context.h */,
+				6413179C16016B5F0014BED4 /* Strategy.cpp */,
+				6413179D16016B5F0014BED4 /* Strategy.h */,
 			);
 			path = StrategyPattern;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6413179116016A5D0014BED4 /* main.cpp in Sources */,
+				6413179B16016AE10014BED4 /* Context.cpp in Sources */,
+				6413179E16016B5F0014BED4 /* Strategy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

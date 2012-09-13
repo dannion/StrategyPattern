@@ -7,12 +7,21 @@
 //
 
 #include <iostream>
-
+#include "Context.h"
+//Client
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Context* cntext = new Context(new StrategyA);
+    cntext->contextInterface();
+    
+    delete cntext;
+
+    cntext = new Context(new StrategyB);
+    cntext->contextInterface();
+    
+    delete cntext;
+
     return 0;
 }
 
